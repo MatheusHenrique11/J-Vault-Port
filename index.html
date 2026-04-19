@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Desenvolvedor Especialista em Java. Projetos de alta performance, APIs robustas e arquiteturas escaláveis.">
+    <title>Dev Java | Especialista em Backend</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-glow"></div>
+    
+    <nav class="navbar">
+        <div class="logo">JV<span>.dev</span></div>
+        <div class="menu-btn"><i class="fa-solid fa-bars"></i></div>
+        <ul class="nav-links">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact" class="btn-contact-nav">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h2 class="greeting">Olá, eu sou o <span class="highlight">Matheus</span></h2>
+            <h1 class="title">Especialista em <span class="java-text">Java</span> & Backend</h1>
+            <p class="subtitle">Arquiteto de soluções escaláveis, desenvolvendo sistemas de alta performance, microserviços e APIs robustas para o mundo moderno.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                <a href="#contact" class="btn btn-secondary">Fale Comigo</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-wrapper glass">
+                <img src="/home/matheuszani/.gemini/antigravity/brain/c0a8630a-13ce-4ba0-aae8-7253ac65a458/profile_picture_1776617879268.png" alt="Desenvolvedor Java trabalhando" id="profile-img">
+                <div class="floating-badge java-badge"><i class="fa-brands fa-java"></i></div>
+                <div class="floating-badge spring-badge">Spring Boot</div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container glass-panel">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="section-title">Sobre Mim</h2>
+                    <p>Sou um engenheiro de software focado no ecossistema <strong>Java</strong>, apaixonado por resolver problemas complexos com código limpo e arquiteturas sólidas.</p>
+                    <p>Minha especialidade envolve a criação de sistemas back-end resilientes utilizando <strong>Spring Boot, Micronaut e Quarkus</strong>. Tenho vasta experiência em arquitetura de microserviços, integrações de APIs, mensageria (Kafka/RabbitMQ) e bancos de dados relacionais e NoSQL.</p>
+                    <div class="skills">
+                        <span class="skill-tag">Java 21</span>
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">Microservices</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Docker & K8s</span>
+                        <span class="skill-tag">AWS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title center">Projetos de Destaque</h2>
+        <p class="section-subtitle">Sistemas completos em produção</p>
+        
+        <div class="projects-grid">
+            <!-- Projeto 1 -->
+            <div class="project-card glass">
+                <div class="project-img">
+                    <img src="/home/matheuszani/.gemini/antigravity/brain/c0a8630a-13ce-4ba0-aae8-7253ac65a458/fintech_java_system_1776617753845.png" alt="FinTech Core System">
+                </div>
+                <div class="project-info">
+                    <h3>FinTech Core Banking API</h3>
+                    <p>Um sistema bancário central de alta performance construído com Java 21 e Spring WebFlux. Processa milhares de transações por segundo (TPS) com latência ultrabaixa. Implementa arquitetura orientada a eventos com Apache Kafka.</p>
+                    <div class="tech-stack">
+                        <span><i class="fa-brands fa-java"></i> Java</span>
+                        <span>Spring WebFlux</span>
+                        <span>Kafka</span>
+                        <span>Redis</span>
+                    </div>
+                    <a href="#" class="btn btn-outline">Ver Detalhes</a>
+                </div>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="project-card glass">
+                <div class="project-img">
+                    <img src="/home/matheuszani/.gemini/antigravity/brain/c0a8630a-13ce-4ba0-aae8-7253ac65a458/ecommerce_java_backend_1776617830098.png" alt="E-commerce Backend Service">
+                </div>
+                <div class="project-info">
+                    <h3>E-commerce Microservices</h3>
+                    <p>Plataforma de backend escalável para e-commerce. Dividida em microserviços de Catálogo, Carrinho, Pedidos e Pagamentos. Integração com Gateways de pagamento externos e buscas em tempo real usando Elasticsearch.</p>
+                    <div class="tech-stack">
+                        <span><i class="fa-brands fa-java"></i> Java</span>
+                        <span>Spring Boot</span>
+                        <span>Elasticsearch</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                    <a href="#" class="btn btn-outline">Ver Detalhes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ongoing-projects">
+        <h2 class="section-title center">Em Produção</h2>
+        <p class="section-subtitle">O que estou construindo no momento</p>
+        
+        <div class="ongoing-grid">
+            <div class="ongoing-card glass-panel">
+                <div class="ongoing-icon"><i class="fa-solid fa-server"></i></div>
+                <h3>SaaS de Logística Inteligente</h3>
+                <p>Plataforma B2B para roteirização e gestão de frotas utilizando algoritmos de otimização em Java. Previsão de lançamento: Q3.</p>
+                <div class="progress-bar"><div class="progress" style="width: 75%"></div></div>
+                <span class="progress-text">75% Concluído</span>
+            </div>
+            
+            <div class="ongoing-card glass-panel">
+                <div class="ongoing-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <h3>Auth Gateway Service</h3>
+                <p>Serviço centralizado de autenticação e autorização (OAuth2/OIDC) desenhado para ser o gateway seguro de múltiplas aplicações corporativas.</p>
+                <div class="progress-bar"><div class="progress" style="width: 40%"></div></div>
+                <span class="progress-text">40% Concluído</span>
+            </div>
+            
+            <div class="ongoing-card glass-panel">
+                <div class="ongoing-icon"><i class="fa-solid fa-brain"></i></div>
+                <h3>AI Data Pipeline</h3>
+                <p>Pipeline de dados em Java que processa grandes volumes de informações não-estruturadas para alimentar modelos de Machine Learning.</p>
+                <div class="progress-bar"><div class="progress" style="width: 15%"></div></div>
+                <span class="progress-text">15% Concluído</span>
+            </div>
+            
+            <div class="ongoing-card glass-panel">
+                <div class="ongoing-icon"><i class="fa-solid fa-code-branch"></i></div>
+                <h3>Muitos outros...</h3>
+                <p>Estou constantemente experimentando novas arquiteturas e contribuindo para projetos Open Source no ecossistema Java.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-container glass-panel">
+            <h2 class="section-title center">Vamos Trabalhar Juntos?</h2>
+            <p class="center">Estou disponível para novos projetos, consultorias e oportunidades incríveis.</p>
+            
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" class="social-btn github">
+                    <i class="fa-brands fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="social-btn linkedin">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="mailto:contato@exemplo.com" class="social-btn email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="social-btn twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                    <span>Twitter</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Desenvolvedor Especialista Java. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
