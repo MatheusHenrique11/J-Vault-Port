@@ -434,30 +434,13 @@ section {
 
 .project-img {
     height: 250px;
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-}
-
-.project-img::-webkit-scrollbar {
-    height: 8px;
-}
-
-.project-img::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.2);
-}
-
-.project-img::-webkit-scrollbar-thumb {
-    background: var(--primary-light);
-    border-radius: 4px;
+    overflow: hidden;
 }
 
 .project-img img {
-    flex: 0 0 100%;
-    min-width: 100%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
-    scroll-snap-align: start;
     transition: transform 0.6s ease;
 }
 
